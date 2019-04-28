@@ -17,9 +17,6 @@ A versão do PI Notification que foi testado foi a versão 2012, que já se enco
 
 
 
-
-
-
 Tanto o [Telegram](https://telegram.org/) quanto o [PI Web API](https://techsupport.osisoft.com/Documentation/PI-Web-API/help.html) trabalham com várias
 linguagens de programação(c#, php, python). Para o nosso caso iremos utilizar como interface o [Node-Red](https://nodered.org/).
 
