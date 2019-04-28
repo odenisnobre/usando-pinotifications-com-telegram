@@ -1,0 +1,7 @@
+C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\bin\TWS.dll.config
+C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\bin\TWS.dll
+C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\bin\TWS.pdb
+C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\obj\Debug\TWS.csproj.CoreCompileInputs.cache
+C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\obj\Debug\TWS.dll
+C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\obj\Debug\TWS.pdb
+C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\obj\Debug\TWS.csprojAssemblyReference.cache
