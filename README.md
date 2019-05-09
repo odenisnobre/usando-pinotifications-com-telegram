@@ -7,7 +7,7 @@
 
 ## Motivação
 
-Configurar o PI Notification para envio de mensagens via Telegram.
+Possibilidade de envio de notificações para o Telegram via PI Notifications.
 
 
 ## Desenvolvimento
