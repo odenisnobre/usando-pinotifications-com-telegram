@@ -79,7 +79,7 @@ O  telegram possui vários nodes mas utilizamos dois:
 
 Como o webservice envia uma requisição usando o método POST temos que criar no Node-Red um flow para receber estes dados:
 
-> <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-15.jpg"/></br>
+> <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-16.jpg"/></br>
 
 > Com esse flow é possível receber os dados do Notification e tratar os mesmos com seu respectivos filtros, se necessário.
 
@@ -91,10 +91,14 @@ Como o webservice envia uma requisição usando o método POST temos que criar n
 
 
 
-
-
 ## Conclusão
+
+Após os teste concluimos que com a utilização do webservice, seja ele diretamente ou com o Node-Red aumentamos ainda mais as oportunidades de envio de notificações para os usuários.
+
+O telegram é muito útil para envio de mensagens críticas.
+
+
 
 ## Help
 
-Caso precisem te ajuda ou tenham alguma sugestão, deixe seu comentário [Aqui](https://github.com/dedynobre/usando-telegram-com-piwebapi/issues).
+Caso precisem te ajuda ou tenham alguma sugestão, deixe seu comentário [Aqui](https://github.com/dedynobre/usando-pinotifications-com-telegram/issues).
