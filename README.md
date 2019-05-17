@@ -31,8 +31,8 @@ Como dito, foi desenvolvido um webservice para fazer a interface entre PI Notifi
 
 O webservice tem três métodos:
 
-+ **HelloWorld**: que serve somente de testes
-+ **SendData**: este é usado para interface com outros softwares, que no nosso caso, será o Node-Red. Este método possui o método HTTP Post que será enviado para uma aplicação externa. Como o webservice foi desenvolvido para trabalhar com uma notificação no PI Notifications foram seguidos os parametros conforme definições abaixo:
++ **_HelloWorld_**: que serve somente de testes
++ **_SendData_**: este é usado para interface com outros softwares, que no nosso caso, será o Node-Red. Este método possui o método HTTP Post que será enviado para uma aplicação externa. Como o webservice foi desenvolvido para trabalhar com uma notificação no PI Notifications foram seguidos os parametros conforme definições abaixo:
 	- **servidor**: endereço no servidor com sua respectiva porta(se houver)
 	- **caminho**: endereço hoje será publicado a mensagem
 	- **par1**: parâmetro 01 da mensagem, retornando o nome da notificação - "nome"
