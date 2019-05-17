@@ -32,13 +32,18 @@ Como dito, foi desenvolvido um webservice para fazer a interface entre PI Notifi
 O webservice tem três métodos:
 
 + **_HelloWorld_**: que serve somente de testes
-+ **_SendData_**: este é usado para interface com outros softwares, que no nosso caso, será o Node-Red. Este método possui o método HTTP Post que será enviado para uma aplicação externa. Como o webservice foi desenvolvido para trabalhar com uma notificação no PI Notifications foram seguidos os parametros conforme definições abaixo:
++ **_SendData_**: usado para interface com outros softwares, que no nosso caso, será o Node-Red. Este método possui o método HTTP Post que será enviado para uma aplicação externa. Como o webservice foi desenvolvido para trabalhar com uma notificação no PI Notifications foram seguidos os parametros conforme definições abaixo:
 	- **servidor**: endereço no servidor com sua respectiva porta(se houver)
 	- **caminho**: endereço hoje será publicado a mensagem
 	- **par1**: parâmetro 01 da mensagem, retornando o nome da notificação - "nome"
 	- **par2**: parâmetro 02 da mensagem, retornando o status do atributo trigger - "status"
-	- **par3**: parâmetro 03 da mensagem, retornando o id da notificação para ser usada como filtro
+	- **par3**: parâmetro 03 da mensagem, retornando o id da notificação para ser usada como filtro - "id"
 	<img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-13.jpg"/></br>
++ **_enviaMessagem_**: usado para envio direto entre de mensagem para Telegram sem necessidade de nenhum servidor adicional. Com três parametros:
+	- **token_bot**: token do bot telegram
+	- **chat_id**: chat id do usuário, lista ou grupo do telegram
+	- **messagem**: a mensagem para ser enviada para os usuários
+	<img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-14.jpg"/></br>
 
 ### Testes solução 01
 
