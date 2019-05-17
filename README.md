@@ -16,7 +16,7 @@ A versão do PI Notification que foi testado foi a versão 2012, que já se enco
 
 No ambiente testado, o PI Notifications estava configurado para envio de notificações somente por e-mail e webservice.
 
-Para a possibilidade de enviar mensagens para Telegram foi criado um webserive para poder fazer a interface entre o PI Notifications e Telegram.
+Para a possibilidade de enviar mensagens para Telegram foi criado um webservice para poder fazer a interface entre o PI Notifications e Telegram.
 
 Durante os testes foram desenvolvidas e testadas duas soluções:
 
@@ -77,16 +77,21 @@ O  telegram possui vários nodes mas utilizamos dois:
 + [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot).
 	* Configurado para envio de notificações 
 
+Como o webservice envia uma requisição usando o método POST temos que criar no Node-Red um flow para receber estes dados:
 
-## Telegram
+> <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-15.jpg"/></br>
 
-Como falado anteriormente foi utilizado dois nodes telegram para este projeto. A configuração comum para os dois node é que precisamos criar um bot no 
-telegram para as duas condições.
-Para criar um [bot](https://core.telegram.org/bots) primeiramente temos que ter uma conta no telegram e seguir os
-seguintes [passos](https://medium.com/tht-things-hackers-team/10-passos-para-se-criar-um-bot-no-telegram-3c1848e404c4):
+> Com esse flow é possível receber os dados do Notification e tratar os mesmos com seu respectivos filtros, se necessário.
 
-Depois de ter configurado o bot no telegram temos que anotar o **botname** e **token**, com estas informações já temos condições de iniciar a configuração
-do Node-Red. 
+> <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-01.jpg"/></br>
+
+> <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-05.jpg"/></br>
+
+> <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-08.jpg"/></br>
+
+
+
+
 
 ## Conclusão
 
