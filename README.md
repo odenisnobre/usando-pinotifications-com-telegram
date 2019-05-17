@@ -14,7 +14,15 @@ Possibilidade de envio de notificações para o Telegram via PI Notifications.
 
 A versão do PI Notification que foi testado foi a versão 2012, que já se encontra desatualizada atualmente.
 
-No ambiente testado, o PI Notifications estava configurado para envio de notificações somente por e-mail.
+No ambiente testado, o PI Notifications estava configurado para envio de notificações somente por e-mail e webservice.
+
+Para a possibilidade de enviar mensagens para Telegram foi criado um webserive para poder fazer a interface entre o PI Notifications e Telegram.
+
+Durante os testes foram desenvolvidas duas soluções:
+
+1. Envio de mensagem de forma direta pelo notifications
+2. Envio de mensagem via Node-Red
+
 
 
 Tanto o [Telegram](https://telegram.org/) quanto o [PI Web API](https://techsupport.osisoft.com/Documentation/PI-Web-API/help.html) trabalham com várias
