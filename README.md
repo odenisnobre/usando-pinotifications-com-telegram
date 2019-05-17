@@ -20,8 +20,8 @@ Para a possibilidade de enviar mensagens para Telegram foi criado um webserive p
 
 Durante os testes foram desenvolvidas e testadas duas soluções:
 
-1. Envio de mensagem de forma direta pelo notifications
-2. Envio de mensagem via Node-Red
+1. > Envio de mensagem de forma direta pelo notifications
+2. > Envio de mensagem via Node-Red
 
 ### Webservice
 
@@ -49,6 +49,8 @@ O webservice tem três métodos:
 
 Usando a solução 01 - **enviaMessagem** - podemos enviar mensagem mais rapidamente pois os parametros são simples.
 	<img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-06.jpg"/></br>
+	
+
 
 
 
