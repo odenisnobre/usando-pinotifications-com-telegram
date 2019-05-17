@@ -48,7 +48,8 @@ O webservice tem três métodos:
 ### Testes solução 01
 
 Usando a solução 01 - **enviaMessagem** - podemos enviar mensagem mais rapidamente pois os parametros são simples.
-  <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-06.jpg"/></br>
+
+> <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-06.jpg"/></br>
 	
 
 
