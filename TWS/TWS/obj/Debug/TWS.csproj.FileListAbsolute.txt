@@ -5,3 +5,10 @@ C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\obj\Debug\TWS.csproj.CoreCompileI
 C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\obj\Debug\TWS.dll
 C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\obj\Debug\TWS.pdb
 C:\Users\Denis Nobre.NBRS\source\repos\TWS\TWS\obj\Debug\TWS.csprojAssemblyReference.cache
+C:\Users\denis.nobre\Documents\Desenvolvimento\github\usando-pinotifications-com-telegram\TWS\TWS\bin\TWS.dll.config
+C:\Users\denis.nobre\Documents\Desenvolvimento\github\usando-pinotifications-com-telegram\TWS\TWS\bin\TWS.dll
+C:\Users\denis.nobre\Documents\Desenvolvimento\github\usando-pinotifications-com-telegram\TWS\TWS\bin\TWS.pdb
+C:\Users\denis.nobre\Documents\Desenvolvimento\github\usando-pinotifications-com-telegram\TWS\TWS\obj\Debug\TWS.csprojAssemblyReference.cache
+C:\Users\denis.nobre\Documents\Desenvolvimento\github\usando-pinotifications-com-telegram\TWS\TWS\obj\Debug\TWS.csproj.CoreCompileInputs.cache
+C:\Users\denis.nobre\Documents\Desenvolvimento\github\usando-pinotifications-com-telegram\TWS\TWS\obj\Debug\TWS.dll
+C:\Users\denis.nobre\Documents\Desenvolvimento\github\usando-pinotifications-com-telegram\TWS\TWS\obj\Debug\TWS.pdb
