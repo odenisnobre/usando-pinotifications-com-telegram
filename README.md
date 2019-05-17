@@ -20,8 +20,8 @@ Para a possibilidade de enviar mensagens para Telegram foi criado um webserive p
 
 Durante os testes foram desenvolvidas e testadas duas soluções:
 
-1. > Envio de mensagem de forma direta pelo notifications
-2. > Envio de mensagem via Node-Red
+> Envio de mensagem de forma direta pelo notifications
+> Envio de mensagem via Node-Red
 
 ### Webservice
 
