@@ -53,17 +53,26 @@ Usando a solução 01 - **enviaMessagem** - podemos enviar mensagem mais rapidam
 
 > <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-07.jpg"/></br>
 	
-Desta forma basta entrar com os três parametros necessário que a mensagem será enviada ao usuário do Telegram.
+> Desta forma basta entrar com os três parametros necessário que a mensagem será enviada ao usuário do Telegram.
 
-Os paramentros podem ser linkados com atributos do AF.
+> Os paramentros podem ser linkados com atributos do AF.
 
-``` A desvantagem desta solução é que a mensagem fica sempre limitada. Para costomizar a mensagem seria necessário usar string builder para deixar a mensagem personalizada. ```
-
-
+``` A desvantagem desta solução é que a mensagem fica sempre limitada. Para customizar a mensagem seria necessário usar string builder para deixar a mensagem personalizada dentro do atributo do AF. ```
 
 
+### Testes solução 02
 
+Usando a solução 01 - **sendData** - podemos enviar mensagem para uma aplicação terceira que irá receber os parametros da mensagem e formatar a mensagem conforme necessidade.
 
+No nosso teste utilizamos o Node-Red como aplicação para receber os parametros, formatar a mensagem e enviá-la para os usuários.
+
+O nosso Node-Red está na versão ```v0.19.3``` e rodando em ambiente Windows - ```Windows Server 2008 R2```.
+
+O  telegram possui vários nodes mas utilizamos dois:
++ [node-red-contrib-chatbot](https://flows.nodered.org/node/node-red-contrib-chatbot):
+	* Configurado bot com menus de navegação
++ [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot).
+	* Configurado para envio de notificações 
 
 
 
