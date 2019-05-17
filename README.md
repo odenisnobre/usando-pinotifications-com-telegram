@@ -50,7 +50,15 @@ O webservice tem três métodos:
 Usando a solução 01 - **enviaMessagem** - podemos enviar mensagem mais rapidamente pois os parametros são simples.
 
 > <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-06.jpg"/></br>
+
+> <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/img-07.jpg"/></br>
 	
+Desta forma basta entrar com os três parametros necessário que a mensagem será enviada ao usuário do Telegram.
+
+Os paramentros podem ser linkados com atributos do AF.
+
+``` A desvantagem desta solução é que a mensagem fica sempre limitada. Para costomizar a mensagem seria necessário usar string builder para deixar a mensagem personalizada. ```
+
 
 
 
