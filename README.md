@@ -62,9 +62,12 @@ Usando a solução 01 - **enviaMessagem** - podemos enviar mensagem mais rapidam
 
 ### Testes solução 02
 
-Usando a solução 01 - **sendData** - podemos enviar mensagem para uma aplicação terceira que irá receber os parametros da mensagem e formatar a mensagem conforme necessidade.
+Usando a solução 02 - **sendData** - podemos enviar mensagem para uma aplicação terceira que irá receber os parametros da mensagem e formatar a mensagem conforme necessidade.
 
-No nosso teste utilizamos o Node-Red como aplicação para receber os parametros, formatar a mensagem e enviá-la para os usuários.
+No nosso teste utilizamos o [Node-Red](https://nodered.org/) como aplicação para receber os parametros, formatar a mensagem e enviá-la para os usuários.
+
+A escolha do uso do *Node-Red* se dá pela facilidade de implementação, documentação e por ser voltado para tecnologias de IoT. Desta forma estamos alinhados 
+com as tendências da Industria 4.0.
 
 O nosso Node-Red está na versão ```v0.19.3``` e rodando em ambiente Windows - ```Windows Server 2008 R2```.
 
@@ -74,28 +77,6 @@ O  telegram possui vários nodes mas utilizamos dois:
 + [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot).
 	* Configurado para envio de notificações 
 
-
-
-
-Tanto o [Telegram](https://telegram.org/) quanto o [PI Web API](https://techsupport.osisoft.com/Documentation/PI-Web-API/help.html) trabalham com várias
-linguagens de programação(c#, php, python). Para o nosso caso iremos utilizar como interface o [Node-Red](https://nodered.org/).
-
-A escolha do uso do *Node-Red* se dá pela facilidade de implementação, documentação e por ser voltado para tecnologias de IoT. Desta forma estamos alinhados 
-com as tendências da Industria 4.0.
-
-O nosso Node-Red está na versão ```v0.19.3``` e rodando em ambiente Windows - ```Windows Server 2008 R2```.
-
-Com o Node-Red devidamente configurado temos que instalar os seguintes nodes:
-
-1. **Telegram**: o telegram possui vários nodes mas utilizamos dois:
-	+ [node-red-contrib-chatbot](https://flows.nodered.org/node/node-red-contrib-chatbot):
-		* Configurado bot com menus de navegação
-	+ [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot).
-		* Configurado para envio de notificações 
-		
-2. **PI Web API**: encontrado alguns node referenciados como PI Web API mas utilizado:
-	+ [node-red-contrib-osisoft-web-api](https://flows.nodered.org/node/node-red-contrib-osisoft-web-api).
-		* Utilizado como fonte de dados
 
 ## Telegram
 
