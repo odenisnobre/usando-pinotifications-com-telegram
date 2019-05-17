@@ -18,10 +18,14 @@ No ambiente testado, o PI Notifications estava configurado para envio de notific
 
 Para a possibilidade de enviar mensagens para Telegram foi criado um webserive para poder fazer a interface entre o PI Notifications e Telegram.
 
-Durante os testes foram desenvolvidas duas soluções:
+Durante os testes foram desenvolvidas e testadas duas soluções:
 
 1. Envio de mensagem de forma direta pelo notifications
 2. Envio de mensagem via Node-Red
+
+### Testes
+
+
 
 
 
