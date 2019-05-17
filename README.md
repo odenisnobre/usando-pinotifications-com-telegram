@@ -1,9 +1,9 @@
-# Usando o PI Notification com Telegram
+# Usando o PI Notifications com Telegram
 
 ## Objetivo
 
 
-> *O projeto tem como objetivo documentar os testes realizados com o PI Notification(OSIsoft) e Telegram.*
+> *O projeto tem como objetivo documentar os testes realizados com o PI Notifications(OSIsoft) e Telegram.*
 
 ## Motivação
 
@@ -14,7 +14,7 @@ Possibilidade de envio de notificações para o Telegram via PI Notifications.
 
 A versão do PI Notification que foi testado foi a versão 2012, que já se encontra desatualizada atualmente.
 
-
+No ambiente testado, o PI Notifications estava configurado para envio de notificações somente por e-mail.
 
 
 Tanto o [Telegram](https://telegram.org/) quanto o [PI Web API](https://techsupport.osisoft.com/Documentation/PI-Web-API/help.html) trabalham com várias
