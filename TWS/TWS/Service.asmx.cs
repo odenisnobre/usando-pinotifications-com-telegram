@@ -26,12 +26,12 @@ namespace TWS
       
 
         [WebMethod]
-        public string enviaMessagem(string token_bot, string chat_id, string messagem)
+        public string enviaMensagem(string token_bot, string chat_id, string mensagem)
         {
 
             string caminho = "https://api.telegram.org/bot";
 
-            string messa = messagem;
+            string messa = mensagem;
 
             string ci = chat_id;
 
