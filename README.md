@@ -13,7 +13,7 @@ Usando o PI Notifications com Telegram
 </p>
 
 <div>
-  <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/exec.gif" alt="node-red-telegram">
+  <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/exec.gif" alt="node-red-telegram" height="300">
 </div>
 
 <hr />
