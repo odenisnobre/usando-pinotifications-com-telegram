@@ -1,13 +1,29 @@
-# Usando o PI Notifications com Telegram
 
-## Objetivo
+<h1 align="center">
+<br>
+Usando o PI Notifications com Telegram
+</h1>
 
+<p align="center">O projeto tem como objetivo documentar os testes realizados com o PI Notifications(OSIsoft) e Telegram.</p>
 
-> *O projeto tem como objetivo documentar os testes realizados com o PI Notifications(OSIsoft) e Telegram.*
+<p align="center">
+  <a href="https://www.apache.org/licenses/LICENSE-2.0">
+    <img src="https://img.shields.io/badge/apache-2.0-blue" alt="License MIT">
+  </a>
+</p>
 
-## Motivação
+<div>
+  <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/exec.gif" alt="node-red-telegram" height="425">
+</div>
 
-Possibilidade de envio de notificações para o Telegram via PI Notifications.
+<hr />
+
+## Recursos utilizados
+
+- **Node-Red** - Versão 1.1.0
+- **Webservice** - Versão 2016 x64
+- **Pi Notification (OSIsoft)** - PI Notification 2012
+- **Telegram**
 
 
 ## Desenvolvimento
