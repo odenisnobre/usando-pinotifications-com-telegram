@@ -4,7 +4,7 @@
 Usando o PI Notifications com Telegram
 </h1>
 
-<p align="center">O projeto tem como objetivo documentar os testes realizados com o PI Notifications(OSIsoft) e Telegram.</p>
+<p align="center">O projeto tem como objetivo documentar os testes realizados com o PI Notifications(OSIsoft) e Telegram usando o node-red como 'gateway'.</p>
 
 <p align="center">
   <a href="https://www.apache.org/licenses/LICENSE-2.0">
